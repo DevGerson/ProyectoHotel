@@ -28,22 +28,80 @@
                             <span class="docs-normal">Paises</span>
                         </h4>
                         <li class="nav-item">
-                            <a class="nav-link active" href="examples/dashboard.html">
+                            <a class="nav-link" data-toggle="collapse" href="#tab-america" role="button"
+                                aria-expanded="false" aria-controls="tab-america">
                                 <i class="ni ni-tv-2 text-primary"></i>
-                                <span class="nav-link-text">America</span>
+                                <span class="align-middle">America</span>
                             </a>
+                            <ul id="tab-america" class="ml-5 sidebar-dropdown list-unstyled collapse"
+                                data-bs-parent="#sidebar">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages-sign-up.html">
+                                        Italia
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages-sign-up.html">
+                                        Italia
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages-sign-up.html">
+                                        Italia
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class=" nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#tab-europa" role="button"
+                                aria-expanded="false" aria-controls="tab-europa">
+                                <i class="ni ni-tv-2 text-primary"></i>
+                                <span class="align-middle">Europa</span>
+                            </a>
+                            <ul id="tab-europa" class="ml-5 sidebar-dropdown list-unstyled collapse"
+                                data-bs-parent="#sidebar">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages-sign-up.html">
+                                        Italia
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages-sign-up.html">
+                                        Italia
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages-sign-up.html">
+                                        Italia
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="examples/icons.html">
-                                <i class="ni ni-planet text-orange"></i>
-                                <span class="nav-link-text">Europa</span>
+                            <a class="nav-link" data-toggle="collapse" href="#tab-asia" role="button"
+                                aria-expanded="false" aria-controls="tab-asia">
+                                <i class="ni ni-tv-2 text-primary"></i>
+                                <span class="align-middle">Asia</span>
                             </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="examples/map.html">
-                                <i class="ni ni-pin-3 text-primary"></i>
-                                <span class="nav-link-text">Asia</span>
-                            </a>
+                            <ul id="tab-asia" class="ml-5 sidebar-dropdown list-unstyled collapse"
+                                data-bs-parent="#sidebar">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages-sign-up.html">
+                                        Italia
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages-sign-up.html">
+                                        Italia
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages-sign-up.html">
+                                        Italia
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -51,12 +109,71 @@
         </div>
     </nav>
     <div class="main-content" id="panel">
-        <nav class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
-            <div class="container-fluid">
-                <!-- Dashboard Principal  -->
+        <nav class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom"></nav>
+        <div class="container-fluid my-4">
+            <!-- Dashboard Principal  -->
+
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="../../assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Hotel Los Angeles</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="../../assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img-top" src="../../assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </nav>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
     </div>
+    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/js-cookie/js.cookie.js"></script>
+    <script src="assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
+    <!-- Optional JS -->
+    <script src="assets/vendor/chart.js/dist/Chart.min.js"></script>
+    <script src="assets/vendor/chart.js/dist/Chart.extension.js"></script>
     <script src="assets/js/argon.min.js?v=1.2.0"></script>
 </body>
 
